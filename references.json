@@ -1,0 +1,50 @@
+[
+  {
+    "id": "tempo",
+    "title": "librosa beat tracking",
+    "url": "https://librosa.org/doc/0.10.2/generated/librosa.beat.beat_track.html",
+    "text": "Tempo estimates describe beat rate in beats per minute. Onset strength and beat tracking estimate periodic activity; half-time and double-time ambiguities can occur. Tempo alone does not determine rhythmic similarity."
+  },
+  {
+    "id": "chroma",
+    "title": "librosa chroma features",
+    "url": "https://librosa.org/doc/0.10.2/generated/librosa.feature.chroma_stft.html",
+    "text": "Chroma summarizes energy across twelve pitch classes. It is a harmonic and pitch-pattern proxy, not a transcription of melody or proof that tunes are identical."
+  },
+  {
+    "id": "dtw",
+    "title": "librosa dynamic time warping",
+    "url": "https://librosa.org/doc/0.10.2/generated/librosa.sequence.dtw.html",
+    "text": "Dynamic time warping aligns ordered feature sequences with different timing. Chroma alignment can compare harmonic progressions while allowing time stretching. It does not identify copying."
+  },
+  {
+    "id": "timbre",
+    "title": "librosa spectral centroid",
+    "url": "https://librosa.org/doc/0.10.2/generated/librosa.feature.spectral_centroid.html",
+    "text": "The spectral centroid is the weighted mean frequency of a spectrum. Spectral statistics and MFCCs summarize sound color or timbre but cannot establish an instrument identity."
+  },
+  {
+    "id": "mert",
+    "title": "MERT research paper",
+    "url": "https://arxiv.org/abs/2306.00107",
+    "text": "MERT is a pretrained music representation encoder. Frozen embeddings can support downstream tasks, but cosine similarity is not a calibrated probability of musical similarity or an instrument prediction."
+  },
+  {
+    "id": "fma",
+    "title": "Official FMA dataset repository",
+    "url": "https://github.com/mdeff/fma",
+    "text": "FMA supplies music audio, metadata, genres, and train validation test splits. Genre classification evaluates representation quality; matching genre labels does not establish human similarity judgments."
+  },
+  {
+    "id": "ast",
+    "title": "AST AudioSet model and official preprocessing",
+    "url": "https://huggingface.co/MIT/ast-finetuned-audioset-10-10-0.4593",
+    "text": "Audio Spectrogram Transformer predicts AudioSet sound-event classes from log-Mel features at 16 kHz. Musical-instrument class scores are model outputs, not verified identities, calibrated similarity probabilities or absence proofs. Predictions only describe analyzed excerpts; reliability on these recordings requires instrument annotations."
+  },
+  {
+    "id": "encodec",
+    "title": "EnCodec: High Fidelity Neural Audio Compression",
+    "url": "https://arxiv.org/abs/2210.13438",
+    "text": "EnCodec encodes waveforms into residual vector-quantized audio codes for reconstruction. Token distributions can be compared as exploratory texture descriptors. Tokens do not directly identify instruments, production techniques or vocal delivery; human similarity requires separate validation."
+  }
+]

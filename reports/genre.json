@@ -1,0 +1,4105 @@
+{
+  "status": "complete",
+  "task": "Auxiliary genre classification; not musical-similarity ground truth",
+  "split_counts": {
+    "training": 6392,
+    "validation": 800,
+    "test": 800
+  },
+  "dropped_artist_overlap_tracks": 0,
+  "overlap_artist_splits": {},
+  "trials": [
+    {
+      "representation": "4",
+      "C": 0.01,
+      "validation_balanced_accuracy": 0.5887500000000001
+    },
+    {
+      "representation": "4",
+      "C": 0.1,
+      "validation_balanced_accuracy": 0.56625
+    },
+    {
+      "representation": "4",
+      "C": 1,
+      "validation_balanced_accuracy": 0.5375000000000001
+    },
+    {
+      "representation": "4",
+      "C": 10,
+      "validation_balanced_accuracy": 0.50875
+    },
+    {
+      "representation": "8",
+      "C": 0.01,
+      "validation_balanced_accuracy": 0.6
+    },
+    {
+      "representation": "8",
+      "C": 0.1,
+      "validation_balanced_accuracy": 0.57125
+    },
+    {
+      "representation": "8",
+      "C": 1,
+      "validation_balanced_accuracy": 0.50375
+    },
+    {
+      "representation": "8",
+      "C": 10,
+      "validation_balanced_accuracy": 0.47000000000000003
+    },
+    {
+      "representation": "12",
+      "C": 0.01,
+      "validation_balanced_accuracy": 0.57625
+    },
+    {
+      "representation": "12",
+      "C": 0.1,
+      "validation_balanced_accuracy": 0.54625
+    },
+    {
+      "representation": "12",
+      "C": 1,
+      "validation_balanced_accuracy": 0.5025
+    },
+    {
+      "representation": "12",
+      "C": 10,
+      "validation_balanced_accuracy": 0.44750000000000006
+    },
+    {
+      "representation": "mean_4_8_12",
+      "C": 0.01,
+      "validation_balanced_accuracy": 0.595
+    },
+    {
+      "representation": "mean_4_8_12",
+      "C": 0.1,
+      "validation_balanced_accuracy": 0.5775
+    },
+    {
+      "representation": "mean_4_8_12",
+      "C": 1,
+      "validation_balanced_accuracy": 0.5237499999999999
+    },
+    {
+      "representation": "mean_4_8_12",
+      "C": 10,
+      "validation_balanced_accuracy": 0.49
+    }
+  ],
+  "selected_on_validation": {
+    "representation": "8",
+    "C": 0.01
+  },
+  "test": {
+    "accuracy": 0.57,
+    "balanced_accuracy": 0.57,
+    "macro_f1": 0.5676716656211497
+  },
+  "test_predictions": [
+    {
+      "fma_track_id": 50753,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 35182,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12521,
+      "actual": "Rock",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 12049,
+      "actual": "Folk",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 18350,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 28179,
+      "actual": "Electronic",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 38785,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 40232,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12387,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 10386,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 9155,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 48293,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 46717,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 63159,
+      "actual": "Experimental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 122107,
+      "actual": "Experimental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 60871,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 117943,
+      "actual": "International",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 73779,
+      "actual": "International",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 92366,
+      "actual": "Electronic",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 53587,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 124391,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 134486,
+      "actual": "Pop",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 111938,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 126507,
+      "actual": "Experimental",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 86416,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 115293,
+      "actual": "Instrumental",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 103522,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 110775,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 94093,
+      "actual": "Rock",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 138019,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 140924,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 140625,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 150017,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 145762,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 144214,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 139935,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 707,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 709,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 708,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 706,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 1066,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 182,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 704,
+      "actual": "International",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 1073,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 892,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 890,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 705,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 1069,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 1249,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 1075,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 1259,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 3624,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 4108,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 7376,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 7391,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 7375,
+      "actual": "Experimental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 7388,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 7373,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 7383,
+      "actual": "Experimental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 7381,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 7379,
+      "actual": "Experimental",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 7386,
+      "actual": "Experimental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 7393,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 7385,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 7374,
+      "actual": "Experimental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 7378,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 7377,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10480,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 10381,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10443,
+      "actual": "Folk",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 10384,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10385,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10684,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10678,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 10383,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 10439,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 10441,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 10438,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10447,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 10382,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10388,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 10440,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10444,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 10682,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 10442,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 10485,
+      "actual": "Folk",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 10481,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 10387,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 10389,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 10679,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 10250,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 11504,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 11505,
+      "actual": "Folk",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 11503,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 11200,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 11019,
+      "actual": "Experimental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 11020,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 10993,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 11204,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 10992,
+      "actual": "Folk",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 11508,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 11059,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12066,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 12064,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12052,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12059,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12047,
+      "actual": "Folk",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 12051,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 12061,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 12050,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12067,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 12060,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12058,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 12053,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12048,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12062,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12065,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12045,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12046,
+      "actual": "Folk",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 12489,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12484,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12485,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12481,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12486,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12490,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12514,
+      "actual": "Folk",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 12690,
+      "actual": "International",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 12692,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 12691,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 12488,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12513,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 12508,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 12482,
+      "actual": "Folk",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 12487,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 12179,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 12390,
+      "actual": "Pop",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 12518,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 13708,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 13711,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 13707,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 13710,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 13706,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 13709,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 13578,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 13666,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 13328,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 14601,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 14602,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 14653,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 14744,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 14742,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 14663,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 14738,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 14690,
+      "actual": "Experimental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 14736,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 14741,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 14604,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 14733,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 14745,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 14739,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 14734,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 14603,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 14737,
+      "actual": "Rock",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 14735,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 14740,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 14743,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 16340,
+      "actual": "Pop",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 16338,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 16337,
+      "actual": "Pop",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 16994,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 16995,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 16997,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 16339,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 15094,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 18112,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 19439,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 20296,
+      "actual": "Experimental",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 19685,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 20667,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 23041,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 23862,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 23010,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 21999,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 21996,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 21998,
+      "actual": "Pop",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 22000,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 22001,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 23063,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 21997,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 21995,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 25055,
+      "actual": "Pop",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 26904,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 26906,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 26902,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 26905,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 26859,
+      "actual": "Electronic",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 26861,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 28802,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 28072,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 28070,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 28266,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 28692,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 30316,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 29351,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 32435,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 35204,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 35198,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 35199,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 33992,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 35184,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 35569,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 35544,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 36959,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 35550,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 36966,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 36302,
+      "actual": "Hip-Hop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 35549,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 36961,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 35608,
+      "actual": "Pop",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 36799,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 35545,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 36965,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 36097,
+      "actual": "Electronic",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 36099,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 36096,
+      "actual": "Electronic",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 36998,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 38783,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38833,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 38821,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38779,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 38828,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38781,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38829,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38820,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 38778,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38830,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38784,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38775,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38824,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 38825,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38780,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38818,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38834,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 38823,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38826,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38776,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38777,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 38817,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38819,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38827,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38822,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 38782,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 39318,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 39317,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 39605,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 39316,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 39607,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 40244,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 40238,
+      "actual": "Folk",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 40243,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 40240,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 40233,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 40844,
+      "actual": "Electronic",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 40230,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 41019,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 41310,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 40237,
+      "actual": "Folk",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 40231,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 40234,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 40241,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 40245,
+      "actual": "Folk",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 40845,
+      "actual": "Electronic",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 40239,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 40242,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 40229,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 40235,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 40236,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 42139,
+      "actual": "Experimental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 42146,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 42138,
+      "actual": "Experimental",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 42135,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 42040,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 42129,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 42018,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 42372,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 42141,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 42463,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 43518,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 42375,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 43520,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 43517,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 42373,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 42376,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 42374,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 42377,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 43519,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 43521,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 43516,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 43768,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 43766,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 43765,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 43767,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 43859,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 44800,
+      "actual": "Experimental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 44777,
+      "actual": "Folk",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 45149,
+      "actual": "Electronic",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 45934,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 45152,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 47628,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 47526,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 47471,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 46718,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 46720,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 50752,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 50754,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 48999,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 48990,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 49477,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 51305,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 51260,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 51301,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 51272,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 53228,
+      "actual": "Pop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 53229,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 53589,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 53588,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 53586,
+      "actual": "Folk",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 54703,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 56523,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 56895,
+      "actual": "Pop",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 56929,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 57540,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 57271,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 57272,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 57273,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 57274,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 59581,
+      "actual": "International",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 59562,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 59695,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 60533,
+      "actual": "International",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 60536,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 60476,
+      "actual": "Hip-Hop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 60535,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 60534,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 60537,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 60874,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 60873,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 60872,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 60875,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 61820,
+      "actual": "Rock",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 61821,
+      "actual": "Rock",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 63161,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 63149,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 63065,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 63064,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 63257,
+      "actual": "Folk",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 63255,
+      "actual": "Folk",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 63456,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 63252,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 63251,
+      "actual": "Folk",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 63457,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 63250,
+      "actual": "Folk",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 63258,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 63253,
+      "actual": "Folk",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 64618,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 66535,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 66536,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 66537,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 66539,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 65265,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 66534,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 65779,
+      "actual": "Electronic",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 66717,
+      "actual": "Rock",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 65780,
+      "actual": "Electronic",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 66538,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 65777,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 67331,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 67332,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 67333,
+      "actual": "Pop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 68404,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 67330,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 67334,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 67336,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 67365,
+      "actual": "Pop",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 67457,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 68536,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 68537,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 68894,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 68891,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 68551,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 68897,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 68896,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 68582,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 68898,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 68899,
+      "actual": "Electronic",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 68895,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 68892,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 68893,
+      "actual": "Electronic",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 68587,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 69223,
+      "actual": "Electronic",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 69222,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 69221,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 69303,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 71503,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 71371,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 71372,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 71420,
+      "actual": "Electronic",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 71711,
+      "actual": "Rock",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 73522,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 73494,
+      "actual": "Experimental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 73521,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 73519,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 73520,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 73776,
+      "actual": "International",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 74374,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 74002,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 73777,
+      "actual": "International",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 74393,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 76129,
+      "actual": "Pop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 76128,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 76130,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 76131,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 76363,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 81071,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 82778,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 82464,
+      "actual": "Rock",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 82462,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 82780,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 84091,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 83906,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 84152,
+      "actual": "Experimental",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 84057,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 83898,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 85598,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 85599,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 84777,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 84736,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 85593,
+      "actual": "Pop",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 85307,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 85596,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 85310,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 85311,
+      "actual": "Pop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 85308,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 85309,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 85592,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 85595,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 85594,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 86118,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 86116,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 86119,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 86117,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 85600,
+      "actual": "Pop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 86037,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 86415,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 86039,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 86038,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 86040,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 86256,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 86788,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 87069,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 86634,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 89445,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 90617,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 90618,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 90616,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 90527,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 90529,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 90526,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 90530,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 91468,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 91471,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 93521,
+      "actual": "Electronic",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 93518,
+      "actual": "Electronic",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 93519,
+      "actual": "Electronic",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 93520,
+      "actual": "Electronic",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 93522,
+      "actual": "Electronic",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 93523,
+      "actual": "Electronic",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 94101,
+      "actual": "Rock",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 94099,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 94102,
+      "actual": "Rock",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 94803,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 95486,
+      "actual": "Pop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 95535,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 97286,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 98349,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 98348,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 98301,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 98299,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 98346,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 98298,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 98302,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 98300,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 98077,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 99096,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 99095,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 99093,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 103519,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 103520,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 103523,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 101951,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 103518,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 103521,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 105141,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 105144,
+      "actual": "Rock",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 104434,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 106876,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 106629,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 106872,
+      "actual": "Rock",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 106877,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 108456,
+      "actual": "Pop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 108526,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108457,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 108459,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 108524,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108493,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 108461,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 108525,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108460,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 108495,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 108843,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 108529,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108528,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108527,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108532,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108845,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 108847,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 108531,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108530,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 108846,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 108842,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 108533,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 110085,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110204,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 110205,
+      "actual": "Experimental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 110206,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 110207,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 110208,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 110209,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 110070,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110082,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110084,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110086,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110776,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110772,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110778,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110771,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110765,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110756,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110774,
+      "actual": "Hip-Hop",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 110768,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110764,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110743,
+      "actual": "Hip-Hop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 110744,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110777,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 110779,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 111153,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 111149,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 111147,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 111146,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 111151,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 111148,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 111154,
+      "actual": "Instrumental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 111150,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 111216,
+      "actual": "Experimental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 111934,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 111994,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 112483,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 112001,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 112487,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 112485,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 112488,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 112000,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 112486,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 111935,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 111936,
+      "actual": "Hip-Hop",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 111937,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 112481,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 112484,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 112468,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 112790,
+      "actual": "Experimental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 113262,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 113274,
+      "actual": "International",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 113275,
+      "actual": "International",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 113279,
+      "actual": "International",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 113273,
+      "actual": "International",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 114212,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 114222,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 114223,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 115011,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 115002,
+      "actual": "Instrumental",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 115176,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 115294,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 115289,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 115288,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 115292,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 115290,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 114976,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 114974,
+      "actual": "Experimental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 116177,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 116176,
+      "actual": "Instrumental",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 115926,
+      "actual": "Folk",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 116407,
+      "actual": "Hip-Hop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 116388,
+      "actual": "Hip-Hop",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 116390,
+      "actual": "Hip-Hop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 116175,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 116389,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 116527,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 117252,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 116526,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 116528,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 117253,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 117251,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 118505,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 117883,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 117885,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 117884,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 117961,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 117887,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 117886,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 117626,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 119584,
+      "actual": "Pop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 119592,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 119830,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 119828,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 119831,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 120206,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 121595,
+      "actual": "Electronic",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 121913,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 121415,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 121922,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 122155,
+      "actual": "Experimental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 121915,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 121929,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 122143,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 122106,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 121930,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 121998,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 122168,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 121926,
+      "actual": "International",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 122510,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 122511,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 124186,
+      "actual": "Rock",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 124184,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 124393,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 124392,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 124394,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 124185,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 126240,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 126241,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 126242,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 126243,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 127189,
+      "actual": "Pop",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 127188,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127183,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127187,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127184,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127180,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127185,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127186,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127181,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127182,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127519,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 127331,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 127559,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 127330,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 127484,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 127520,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 128881,
+      "actual": "Experimental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 128879,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 128878,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 128887,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 128882,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 128886,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 128888,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 128441,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 128880,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 128885,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 130752,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 131476,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 131410,
+      "actual": "Experimental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 131933,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 131936,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 131932,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 131935,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 131934,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 132171,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 132117,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 132448,
+      "actual": "Electronic",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 133102,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 133772,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 133681,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 134790,
+      "actual": "Instrumental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 134794,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 134796,
+      "actual": "Instrumental",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 134797,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 134791,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 134795,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 134792,
+      "actual": "Instrumental",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 134793,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 136054,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 137605,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 138026,
+      "actual": "Instrumental",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 138022,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 138020,
+      "actual": "Instrumental",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 138025,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 138021,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 138024,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 137627,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 137631,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 137632,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 138018,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 138023,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 137630,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 137624,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 140621,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 140609,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 140620,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 139934,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 139933,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 140043,
+      "actual": "Rock",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 140626,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 139936,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 139937,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 140623,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 140926,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 140933,
+      "actual": "Electronic",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 140922,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 140925,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 140934,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 140923,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 142358,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 142361,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 141616,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 142359,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 142360,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 141877,
+      "actual": "Rock",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 141878,
+      "actual": "Rock",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 141618,
+      "actual": "Electronic",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 142362,
+      "actual": "Hip-Hop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 141617,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 141619,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 142537,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 142533,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 142536,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 142538,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 142534,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 142535,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 142539,
+      "actual": "International",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 144216,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 144212,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 144213,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 144215,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 144592,
+      "actual": "Electronic",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 145068,
+      "actual": "Rock",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 145458,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 145475,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 145457,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 145067,
+      "actual": "Rock",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 145750,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 145777,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 145476,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 145477,
+      "actual": "Instrumental",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 145749,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 145751,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 145748,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 145747,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 147024,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 147023,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 147261,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 145887,
+      "actual": "Instrumental",
+      "prediction": "Folk"
+    },
+    {
+      "fma_track_id": 147021,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 147020,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 147022,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 148028,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 148031,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 148002,
+      "actual": "Instrumental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 148082,
+      "actual": "Experimental",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 148032,
+      "actual": "Hip-Hop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 148613,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 148609,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 148608,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 148611,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 148610,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 148606,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 148612,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 148430,
+      "actual": "International",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 148607,
+      "actual": "Pop",
+      "prediction": "Rock"
+    },
+    {
+      "fma_track_id": 149623,
+      "actual": "Hip-Hop",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 150018,
+      "actual": "Pop",
+      "prediction": "Pop"
+    },
+    {
+      "fma_track_id": 149626,
+      "actual": "Hip-Hop",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 149625,
+      "actual": "Hip-Hop",
+      "prediction": "International"
+    },
+    {
+      "fma_track_id": 150015,
+      "actual": "Pop",
+      "prediction": "Experimental"
+    },
+    {
+      "fma_track_id": 150287,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 150288,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 154307,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 154309,
+      "actual": "Hip-Hop",
+      "prediction": "Instrumental"
+    },
+    {
+      "fma_track_id": 154305,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 154303,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    },
+    {
+      "fma_track_id": 154308,
+      "actual": "Hip-Hop",
+      "prediction": "Electronic"
+    },
+    {
+      "fma_track_id": 154306,
+      "actual": "Hip-Hop",
+      "prediction": "Hip-Hop"
+    }
+  ],
+  "note": "Pilot estimates have high uncertainty. Existing encoder pretraining overlap is not audited."
+}

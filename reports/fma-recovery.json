@@ -1,0 +1,24 @@
+[
+  {
+    "id": "20554547add84ee19a5bc4b4539d634d",
+    "title": "Brandon Clark",
+    "status": "excluded",
+    "reason": "Unreadable audio: Unspecified internal error.",
+    "original_preserved": true
+  },
+  {
+    "id": "97035697389045afabd6ff2ac0ce44e6",
+    "title": "Love and Fear",
+    "status": "excluded",
+    "reason": "Unreadable audio: Unspecified internal error.",
+    "original_preserved": true
+  },
+  {
+    "id": "b2c3d370665c49e9afa194b734961f9b",
+    "status": "recovered",
+    "reason": "Damaged NPZ checkpoint quarantined and recomputed",
+    "mert_ready": true,
+    "processing_seconds": 22.28888009999355,
+    "original_preserved": true
+  }
+]

@@ -1,0 +1,695 @@
+[
+  {
+    "a": "Gehra Hua Dhurandhar 128 Kbps",
+    "b": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 73.70815875423723,
+      "dimensions": {
+        "rhythm_proxy": 69.34437038701398,
+        "harmonic_proxy": 81.24698134511682,
+        "timbral_proxy": 82.72275946552226,
+        "dynamic_range_proxy": 52.33375578811613
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Gehra Hua Dhurandhar 128 Kbps",
+    "b": "Naal Nachna Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 76.80040885341441,
+      "dimensions": {
+        "rhythm_proxy": 70.82787534716294,
+        "harmonic_proxy": 83.1650030466441,
+        "timbral_proxy": 86.71289207543565,
+        "dynamic_range_proxy": 59.49548210942256
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Gehra Hua Dhurandhar 128 Kbps",
+    "b": "Parvati Hanuman Ansh 320 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 78.95698889073778,
+      "dimensions": {
+        "rhythm_proxy": 72.48492459760007,
+        "harmonic_proxy": 86.73207819041858,
+        "timbral_proxy": 87.35245377640864,
+        "dynamic_range_proxy": 62.35849740153352
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Gehra Hua Dhurandhar 128 Kbps",
+    "b": "Ramba Ho Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 75.19160650324137,
+      "dimensions": {
+        "rhythm_proxy": 71.65589632869172,
+        "harmonic_proxy": 82.2912367035316,
+        "timbral_proxy": 85.66889417695154,
+        "dynamic_range_proxy": 50.60162032890988
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Gehra Hua Dhurandhar 128 Kbps",
+    "b": "Shararat Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 77.15451228962561,
+      "dimensions": {
+        "rhythm_proxy": 70.57099220852241,
+        "harmonic_proxy": 84.2872281540846,
+        "timbral_proxy": 86.91901695389575,
+        "dynamic_range_proxy": 59.78194628246387
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Gehra Hua Dhurandhar 128 Kbps",
+    "b": "Title Track Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 76.2681369848377,
+      "dimensions": {
+        "rhythm_proxy": 73.56923714745616,
+        "harmonic_proxy": 82.43882020294434,
+        "timbral_proxy": 84.90650691453116,
+        "dynamic_range_proxy": 54.92728700723174
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "b": "Naal Nachna Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 75.40991178238411,
+      "dimensions": {
+        "rhythm_proxy": 69.77189903089034,
+        "harmonic_proxy": 82.09473996305263,
+        "timbral_proxy": 84.352430547655,
+        "dynamic_range_proxy": 58.412082981916534
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "b": "Parvati Hanuman Ansh 320 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 73.06205082169993,
+      "dimensions": {
+        "rhythm_proxy": 70.78584853720234,
+        "harmonic_proxy": 82.08489177384143,
+        "timbral_proxy": 78.03927710209608,
+        "dynamic_range_proxy": 51.273396352418445
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "b": "Ramba Ho Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 75.42778923216741,
+      "dimensions": {
+        "rhythm_proxy": 69.74179876933438,
+        "harmonic_proxy": 78.10634818893551,
+        "timbral_proxy": 85.59911087386631,
+        "dynamic_range_proxy": 64.49044950813246
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "b": "Shararat Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 74.45279807895258,
+      "dimensions": {
+        "rhythm_proxy": 70.45365541348428,
+        "harmonic_proxy": 79.76215390222215,
+        "timbral_proxy": 82.32500808275036,
+        "dynamic_range_proxy": 58.71202175702035
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "b": "Title Track Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 76.0713671401189,
+      "dimensions": {
+        "rhythm_proxy": 70.07522064000248,
+        "harmonic_proxy": 82.46885057054773,
+        "timbral_proxy": 85.30958585607335,
+        "dynamic_range_proxy": 59.8716620862366
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Naal Nachna Dhurandhar 128 Kbps",
+    "b": "Parvati Hanuman Ansh 320 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 76.47557321184183,
+      "dimensions": {
+        "rhythm_proxy": 71.54514606473936,
+        "harmonic_proxy": 83.26368641607726,
+        "timbral_proxy": 84.17589683655751,
+        "dynamic_range_proxy": 59.92632838971647
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Naal Nachna Dhurandhar 128 Kbps",
+    "b": "Ramba Ho Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 77.1004975242916,
+      "dimensions": {
+        "rhythm_proxy": 70.45153406629194,
+        "harmonic_proxy": 83.32242108794908,
+        "timbral_proxy": 88.74191307086159,
+        "dynamic_range_proxy": 58.55221806869258
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Naal Nachna Dhurandhar 128 Kbps",
+    "b": "Shararat Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 77.98485983785936,
+      "dimensions": {
+        "rhythm_proxy": 72.21602126786549,
+        "harmonic_proxy": 85.49957516071612,
+        "timbral_proxy": 87.50606650526214,
+        "dynamic_range_proxy": 58.62442855312893
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Naal Nachna Dhurandhar 128 Kbps",
+    "b": "Title Track Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 77.06780212756694,
+      "dimensions": {
+        "rhythm_proxy": 71.31492513169455,
+        "harmonic_proxy": 82.81946983386206,
+        "timbral_proxy": 86.97748164409418,
+        "dynamic_range_proxy": 60.554088179176034
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Parvati Hanuman Ansh 320 Kbps",
+    "b": "Ramba Ho Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 75.40323572312242,
+      "dimensions": {
+        "rhythm_proxy": 68.65319117845137,
+        "harmonic_proxy": 84.33763494458219,
+        "timbral_proxy": 84.39462328866375,
+        "dynamic_range_proxy": 56.04888042697611
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Parvati Hanuman Ansh 320 Kbps",
+    "b": "Shararat Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 76.4076084231864,
+      "dimensions": {
+        "rhythm_proxy": 68.34951877052929,
+        "harmonic_proxy": 85.00126099503728,
+        "timbral_proxy": 85.20944998031239,
+        "dynamic_range_proxy": 60.66674665625563
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Parvati Hanuman Ansh 320 Kbps",
+    "b": "Title Track Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 76.16924665676605,
+      "dimensions": {
+        "rhythm_proxy": 69.8246723434322,
+        "harmonic_proxy": 84.20438583853887,
+        "timbral_proxy": 85.60777041106232,
+        "dynamic_range_proxy": 57.05724399606106
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Ramba Ho Dhurandhar 128 Kbps",
+    "b": "Shararat Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 77.31861979090834,
+      "dimensions": {
+        "rhythm_proxy": 68.45017012932817,
+        "harmonic_proxy": 84.95290538515657,
+        "timbral_proxy": 88.48413824257116,
+        "dynamic_range_proxy": 61.177750506134146
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Ramba Ho Dhurandhar 128 Kbps",
+    "b": "Title Track Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 76.98587098945731,
+      "dimensions": {
+        "rhythm_proxy": 70.15172316708052,
+        "harmonic_proxy": 84.65403588997826,
+        "timbral_proxy": 86.94593057720095,
+        "dynamic_range_proxy": 58.717737520263
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  },
+  {
+    "a": "Shararat Dhurandhar 128 Kbps",
+    "b": "Title Track Dhurandhar 128 Kbps",
+    "machine_proxy": {
+      "available": true,
+      "index": 75.88170598069514,
+      "dimensions": {
+        "rhythm_proxy": 68.79694310534592,
+        "harmonic_proxy": 83.23656014018158,
+        "timbral_proxy": 85.66776122153945,
+        "dynamic_range_proxy": 59.03143134434692
+      },
+      "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+      "training_target": "Calculated acoustic pseudo-labels, not listener judgments",
+      "aggregation": {
+        "rhythm_proxy": 0.3,
+        "harmonic_proxy": 0.3,
+        "timbral_proxy": 0.25,
+        "dynamic_range_proxy": 0.15
+      },
+      "model": "Standardized multi-output ridge above frozen MERT; PCA fitted on training tracks only",
+      "unsupported": [
+        "instrument identities",
+        "vocal delivery",
+        "isolated melody",
+        "key/mode",
+        "human overall feel"
+      ],
+      "validation": {
+        "machine_target_mae": 0.10414846859761819
+      }
+    }
+  }
+]

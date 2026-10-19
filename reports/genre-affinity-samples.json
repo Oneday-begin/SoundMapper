@@ -1,0 +1,905 @@
+[
+  {
+    "song_a": "Gehra Hua Dhurandhar 128 Kbps",
+    "song_b": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 66.44848006818584,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.3352345491251986
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.3126404227771786
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.14303876181634054
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.8696324377379098
+      },
+      {
+        "genre": "International",
+        "activation": 0.08147029075079944
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.03435792856132123
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Gehra Hua Dhurandhar 128 Kbps",
+    "song_b": "Naal Nachna Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 83.9319756254028,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.3352345491251986
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.3126404227771786
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.14303876181634054
+      }
+    ],
+    "b": [
+      {
+        "genre": "International",
+        "activation": 0.4169405270720771
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.29375468445562025
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.2180083707437078
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Gehra Hua Dhurandhar 128 Kbps",
+    "song_b": "Parvati Hanuman Ansh 320 Kbps",
+    "available": true,
+    "index": 84.76832302283258,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.3352345491251986
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.3126404227771786
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.14303876181634054
+      }
+    ],
+    "b": [
+      {
+        "genre": "International",
+        "activation": 0.7044165497815035
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.1444116166113493
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06854920452146651
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Gehra Hua Dhurandhar 128 Kbps",
+    "song_b": "Ramba Ho Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 60.902049767530784,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.3352345491251986
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.3126404227771786
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.14303876181634054
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.9048073382408001
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06315542833895173
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.012711607071615618
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Gehra Hua Dhurandhar 128 Kbps",
+    "song_b": "Shararat Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 85.77940060959865,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.3352345491251986
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.3126404227771786
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.14303876181634054
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.483216441275851
+      },
+      {
+        "genre": "International",
+        "activation": 0.40375716201482653
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.0710234154611527
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Gehra Hua Dhurandhar 128 Kbps",
+    "song_b": "Title Track Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 67.70473345598782,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.3352345491251986
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.3126404227771786
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.14303876181634054
+      }
+    ],
+    "b": [
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.6350168548480412
+      },
+      {
+        "genre": "International",
+        "activation": 0.2585055078371482
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.04630931047515909
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "song_b": "Naal Nachna Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 78.24788506960067,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "Electronic",
+        "activation": 0.8696324377379098
+      },
+      {
+        "genre": "International",
+        "activation": 0.08147029075079944
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.03435792856132123
+      }
+    ],
+    "b": [
+      {
+        "genre": "International",
+        "activation": 0.4169405270720771
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.29375468445562025
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.2180083707437078
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "song_b": "Parvati Hanuman Ansh 320 Kbps",
+    "available": true,
+    "index": 42.21157045631529,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "Electronic",
+        "activation": 0.8696324377379098
+      },
+      {
+        "genre": "International",
+        "activation": 0.08147029075079944
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.03435792856132123
+      }
+    ],
+    "b": [
+      {
+        "genre": "International",
+        "activation": 0.7044165497815035
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.1444116166113493
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06854920452146651
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "song_b": "Ramba Ho Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 97.7853735973862,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "Electronic",
+        "activation": 0.8696324377379098
+      },
+      {
+        "genre": "International",
+        "activation": 0.08147029075079944
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.03435792856132123
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.9048073382408001
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06315542833895173
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.012711607071615618
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "song_b": "Shararat Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 90.1592579808689,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "Electronic",
+        "activation": 0.8696324377379098
+      },
+      {
+        "genre": "International",
+        "activation": 0.08147029075079944
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.03435792856132123
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.483216441275851
+      },
+      {
+        "genre": "International",
+        "activation": 0.40375716201482653
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.0710234154611527
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+    "song_b": "Title Track Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 40.735528991228065,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "Electronic",
+        "activation": 0.8696324377379098
+      },
+      {
+        "genre": "International",
+        "activation": 0.08147029075079944
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.03435792856132123
+      }
+    ],
+    "b": [
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.6350168548480412
+      },
+      {
+        "genre": "International",
+        "activation": 0.2585055078371482
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.04630931047515909
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Naal Nachna Dhurandhar 128 Kbps",
+    "song_b": "Parvati Hanuman Ansh 320 Kbps",
+    "available": true,
+    "index": 85.89509640522925,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.4169405270720771
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.29375468445562025
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.2180083707437078
+      }
+    ],
+    "b": [
+      {
+        "genre": "International",
+        "activation": 0.7044165497815035
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.1444116166113493
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06854920452146651
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Naal Nachna Dhurandhar 128 Kbps",
+    "song_b": "Ramba Ho Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 69.96801340733477,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.4169405270720771
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.29375468445562025
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.2180083707437078
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.9048073382408001
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06315542833895173
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.012711607071615618
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Naal Nachna Dhurandhar 128 Kbps",
+    "song_b": "Shararat Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 94.00428198810467,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.4169405270720771
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.29375468445562025
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.2180083707437078
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.483216441275851
+      },
+      {
+        "genre": "International",
+        "activation": 0.40375716201482653
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.0710234154611527
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Naal Nachna Dhurandhar 128 Kbps",
+    "song_b": "Title Track Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 85.47124682231517,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.4169405270720771
+      },
+      {
+        "genre": "Electronic",
+        "activation": 0.29375468445562025
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.2180083707437078
+      }
+    ],
+    "b": [
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.6350168548480412
+      },
+      {
+        "genre": "International",
+        "activation": 0.2585055078371482
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.04630931047515909
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Parvati Hanuman Ansh 320 Kbps",
+    "song_b": "Ramba Ho Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 29.539880901416044,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.7044165497815035
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.1444116166113493
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06854920452146651
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.9048073382408001
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06315542833895173
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.012711607071615618
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Parvati Hanuman Ansh 320 Kbps",
+    "song_b": "Shararat Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 75.97620697988572,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.7044165497815035
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.1444116166113493
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06854920452146651
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.483216441275851
+      },
+      {
+        "genre": "International",
+        "activation": 0.40375716201482653
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.0710234154611527
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Parvati Hanuman Ansh 320 Kbps",
+    "song_b": "Title Track Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 84.44987653978687,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "International",
+        "activation": 0.7044165497815035
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.1444116166113493
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06854920452146651
+      }
+    ],
+    "b": [
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.6350168548480412
+      },
+      {
+        "genre": "International",
+        "activation": 0.2585055078371482
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.04630931047515909
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Ramba Ho Dhurandhar 128 Kbps",
+    "song_b": "Shararat Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 81.68643193580199,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "Electronic",
+        "activation": 0.9048073382408001
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06315542833895173
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.012711607071615618
+      }
+    ],
+    "b": [
+      {
+        "genre": "Electronic",
+        "activation": 0.483216441275851
+      },
+      {
+        "genre": "International",
+        "activation": 0.40375716201482653
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.0710234154611527
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Ramba Ho Dhurandhar 128 Kbps",
+    "song_b": "Title Track Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 35.44297534683226,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "Electronic",
+        "activation": 0.9048073382408001
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.06315542833895173
+      },
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.012711607071615618
+      }
+    ],
+    "b": [
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.6350168548480412
+      },
+      {
+        "genre": "International",
+        "activation": 0.2585055078371482
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.04630931047515909
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  },
+  {
+    "song_a": "Shararat Dhurandhar 128 Kbps",
+    "song_b": "Title Track Dhurandhar 128 Kbps",
+    "available": true,
+    "index": 63.659291525552874,
+    "method": "Bhattacharyya coefficient of learned genre profiles",
+    "a": [
+      {
+        "genre": "Electronic",
+        "activation": 0.483216441275851
+      },
+      {
+        "genre": "International",
+        "activation": 0.40375716201482653
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.0710234154611527
+      }
+    ],
+    "b": [
+      {
+        "genre": "Hip-Hop",
+        "activation": 0.6350168548480412
+      },
+      {
+        "genre": "International",
+        "activation": 0.2585055078371482
+      },
+      {
+        "genre": "Pop",
+        "activation": 0.04630931047515909
+      }
+    ],
+    "note": "Genre affinity compares predicted FMA genre profiles. It is not listener similarity, instrument recognition, or a calibrated musical-similarity probability. FMA coverage may not transfer to Hindi film songs.",
+    "test": {
+      "accuracy": 0.57,
+      "balanced_accuracy": 0.57,
+      "macro_f1": 0.5676716656211497
+    },
+    "representation": "8",
+    "target": "FMA genre labels; no human similarity targets"
+  }
+]

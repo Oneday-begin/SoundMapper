@@ -1,0 +1,53 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+# Private/local state, configuration, datasets, audio, and model assets
+data/
+config.json
+.env
+.env.*
+!.env.example
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.zip
+*.7z
+*.tar
+*.gz
+*.bin
+*.pt
+*.pth
+*.safetensors
+*.sqlite*
+*.db
+*.npz
+*.npy
+# Generated output and editor/OS metadata
+*.log
+*.tmp
+reports/screenshots/
+tmp/
+output/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Regenerated from the pinned Plotly dependency by setup.ps1
+static/plotly.min.js
+
+# Personal placement materials and screenshots are not part of the public source
+*.pdf
+docs/
+reports/*.png
+reports/*.jpg
+reports/*.jpeg

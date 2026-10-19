@@ -1,0 +1,21 @@
+{
+  "samples": "data/external/samples",
+  "metadata": "data/external/fma_metadata",
+  "fma_audio": "data/external/fma_small",
+  "archive": "data/external/fma_small.zip",
+  "seven_zip": "C:/Program Files/7-Zip/7z.exe",
+  "state": "data",
+  "model_revision": "12af15fef9d0ac838c3f475bfbbf26d2060dd4f5",
+  "mert_enabled": true,
+  "model_downloads_allowed": false,
+  "window_seconds": 5,
+  "threads": 4,
+  "upload_mb": 40,
+  "max_duration_seconds": 1200,
+  "tagging_enabled": true,
+  "tagging_revision": "f826b80d28226b62986cc218e5cec390b1096902",
+  "tagging_max_windows": 9,
+  "separation_sha256": "85ce4420e0852344b816487b4c4bb821bd406376b93bf684b2b76aa56404c46a",
+  "ollama_model": "qwen3:1.7b",
+  "ollama_digest": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7"
+}

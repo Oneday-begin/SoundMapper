@@ -1,0 +1,33 @@
+Licensing scope: This MIT license covers original SoundMap application code.
+instrument-ontology.json is an attributed derivative of the AudioSet ontology,
+licensed separately under CC BY-SA 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+https://github.com/audioset/ontology/tree/d417d32bf59c711abb5910fd2f76a0eb44697991
+Model weights, audio, metadata and dependencies retain their respective licenses;
+see README.md. No audio or model weights are bundled in the source archive.
+
+MIT License
+
+Copyright (c) 2026 SoundMap contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+This license covers original SoundMap code only. Third-party model weights,
+datasets, music recordings, Plotly.js, and dependencies retain their respective
+licenses. In particular MERT weights are CC BY-NC 4.0 per their model card.

@@ -1,0 +1,18 @@
+{
+  "source": "Parvati Hanuman Ansh 320 Kbps",
+  "source_timestamp": [
+    0,
+    5.0
+  ],
+  "purpose": "Controlled five-second encoder sanity checks, not recommendation-quality labels or similarity training",
+  "half_gain": {
+    "embedding_max_abs_difference": 1.8537044525146484e-05,
+    "genre_affinity": 99.9999999980558
+  },
+  "reversed_audio": {
+    "genre_affinity": 80.81831487014264,
+    "note": "Chronology changed; no assumed human-similarity target"
+  },
+  "processing_seconds_including_model_load": 13.163017200000468,
+  "peak_rss_mb": 1143.5625
+}

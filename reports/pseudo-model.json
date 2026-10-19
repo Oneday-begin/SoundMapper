@@ -1,0 +1,119 @@
+{
+  "status": "trained",
+  "task": "Machine-supervised acoustic-rule distillation",
+  "note": "Machine-supervised approximation of acoustic rules; no human listening ratings. Scores are not validated perceptual similarity or instrument recognition.",
+  "targets": [
+    "rhythm_proxy",
+    "harmonic_proxy",
+    "timbral_proxy",
+    "dynamic_range_proxy"
+  ],
+  "aggregation": {
+    "rhythm_proxy": 0.3,
+    "harmonic_proxy": 0.3,
+    "timbral_proxy": 0.25,
+    "dynamic_range_proxy": 0.15
+  },
+  "teacher_rules": {
+    "rhythm": "0.6 onset-autocorrelation cosine + 0.4 exp(-abs(log2(BPM ratio))/0.25)",
+    "harmonic": "chronological CQT chroma DTW, bounded at 200 frames",
+    "timbral": "exp(-L2 distance of fixed-scaled MFCC/spectral features / sqrt(feature count))",
+    "dynamic_range": "exp(-L2 distance of crest and RMS spread divided by 6 dB / sqrt(2))"
+  },
+  "tracks": {
+    "training": 6393,
+    "validation": 800,
+    "test": 800
+  },
+  "pair_counts": {
+    "training": 6000,
+    "validation": 1200,
+    "test": 1200
+  },
+  "split_audit": {
+    "excluded": 0,
+    "artist_split_conflicts": 0,
+    "duplicate_split_conflicts": 0
+  },
+  "trials": [
+    {
+      "alpha": 0.1,
+      "validation_mae": 0.10453306789389903
+    },
+    {
+      "alpha": 1,
+      "validation_mae": 0.10455301277722998
+    },
+    {
+      "alpha": 10,
+      "validation_mae": 0.10466173242397943
+    },
+    {
+      "alpha": 100,
+      "validation_mae": 0.10475676849082308
+    },
+    {
+      "alpha": 1000,
+      "validation_mae": 0.10414846859761819
+    }
+  ],
+  "selected_alpha": 1000,
+  "test_against_machine_targets": {
+    "ridge": {
+      "rhythm_proxy": 0.11420842632551374,
+      "harmonic_proxy": 0.06493249155947735,
+      "timbral_proxy": 0.0512009835053711,
+      "dynamic_range_proxy": 0.16308238460423133,
+      "overall_mae": 0.050835456676167914,
+      "overall_spearman": 0.5124109669520603,
+      "machine_target_ndcg_at_10": 0.9635084794290234,
+      "ranking_queries": 63
+    },
+    "training_mean": {
+      "rhythm_proxy": 0.11510680974384722,
+      "harmonic_proxy": 0.07401102398663395,
+      "timbral_proxy": 0.07009445115021504,
+      "dynamic_range_proxy": 0.17487449202662295,
+      "overall_mae": 0.05970305394494871,
+      "overall_spearman": null,
+      "machine_target_ndcg_at_10": 0.9366194969353122,
+      "ranking_queries": 63
+    },
+    "frozen_mert_layer12": {
+      "rhythm_proxy": 0.2111537379436294,
+      "harmonic_proxy": 0.11279087356436891,
+      "timbral_proxy": 0.13809729452770164,
+      "dynamic_range_proxy": 0.40045095386271723,
+      "overall_mae": 0.18760956853239263,
+      "overall_spearman": 0.5055234343912739,
+      "machine_target_ndcg_at_10": 0.965837176536996,
+      "ranking_queries": 63
+    },
+    "exact_rule_teacher": {
+      "rhythm_proxy": 0.0,
+      "harmonic_proxy": 0.0,
+      "timbral_proxy": 0.0,
+      "dynamic_range_proxy": 0.0,
+      "overall_mae": 0.0,
+      "overall_spearman": 1.0,
+      "machine_target_ndcg_at_10": 1.0,
+      "ranking_queries": 63
+    }
+  },
+  "checkpoint_reused_pairs": 8400,
+  "human_ratings_created": 0,
+  "human_similarity_trained": false,
+  "encoder_finetuned": false,
+  "dataset_fingerprint": "3d5e86d3e8838f6fe3b143c6853af5330993ab95013fc47bf5e71410f941b4bc",
+  "pair_selection": "150 training / 30 validation / 30 test anchors; up to 40 candidates each, uniform and nearest/farthest from a deterministic 200-track pool; no test-target tuning",
+  "leakage_control": "Supplied splits, artist and recording conflicts removed before pairs; PCA/scaling fit only on training tracks/pairs; all windows remain with source recording",
+  "limitations": [
+    "Machine-target accuracy is not listener agreement.",
+    "Rule teacher scores remain available and are exact by construction.",
+    "No instrument/vocal/melody labels synthesized.",
+    "30-second FMA to full Hindi songs is an unevaluated domain shift.",
+    "Random/stratified candidates do not establish catalogue-wide retrieval quality."
+  ],
+  "processing_seconds": 54.906933899997966,
+  "peak_rss_mb": 2491.95703125
+}

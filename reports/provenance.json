@@ -1,0 +1,95 @@
+{
+  "features_headers": [
+    {
+      "columns": 519,
+      "first_cells": [
+        "feature",
+        "chroma_cens",
+        "chroma_cens",
+        "chroma_cens",
+        "chroma_cens",
+        "chroma_cens",
+        "chroma_cens",
+        "chroma_cens"
+      ]
+    },
+    {
+      "columns": 519,
+      "first_cells": [
+        "statistics",
+        "kurtosis",
+        "kurtosis",
+        "kurtosis",
+        "kurtosis",
+        "kurtosis",
+        "kurtosis",
+        "kurtosis"
+      ]
+    },
+    {
+      "columns": 519,
+      "first_cells": [
+        "number",
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07"
+      ]
+    },
+    {
+      "columns": 519,
+      "first_cells": [
+        "track_id",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "genres_count": 163,
+  "environment": {
+    "python": "3.12.0",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "ram_gb": 31.73479461669922
+  },
+  "reviewed_custom_code": {
+    "configuration_MERT.py": "ae0ec2bab8f59c724ba9878a7c20b67210189536ea62d34a56775968e9decb03",
+    "modeling_MERT.py": "6c3ee73cef6f0c30ef494f88d96f891fa6925ffe663fa391b512f4b57abecc6c"
+  },
+  "extensions": {
+    "date": "2026-10-09",
+    "ast": {
+      "version": 2,
+      "model": "MIT/ast-finetuned-audioset-10-10-0.4593",
+      "revision": "f826b80d28226b62986cc218e5cec390b1096902",
+      "sr": 16000,
+      "seconds": 10,
+      "max_windows": 9,
+      "aggregation": "mean sigmoid across non-silent sampled windows",
+      "display_threshold": 0.2,
+      "ontology_revision": "d417d32bf59c711abb5910fd2f76a0eb44697991",
+      "preprocessing": "official ASTFeatureExtractor torchaudio 2.6 CPU Kaldi fbank; 24k mono decode resampled to 16k",
+      "files_sha256": {
+        "config.json": "a93d525511d77e8ecc933d09674b85099815bbbb417c228a4edd655e252fb9ff",
+        "preprocessor_config.json": "8d04ba5a9c6fca5d39d0de2b1fd05ecf79deb589fbba279728bbebac39934231",
+        "model.safetensors": "ae0c1e2ad4e1381d851fa9bf298ba13ebc9c5a914cdee2dbe427a6583869924d"
+      },
+      "model_license": "BSD-3-Clause"
+    },
+    "ontology_file_sha256": "d6c383eb8f6c892fe5323f65cced95a13df1bc180cf30939affcd6cc48d02383",
+    "ontology_license": "CC-BY-SA-4.0; derivative instrument subset, source attribution inside JSON",
+    "offline_mert_equal_to_original": true,
+    "ollama_model": "qwen3:1.7b",
+    "ollama_digest": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7",
+    "torch": "2.6.0+cpu",
+    "torchaudio": "2.6.0+cpu",
+    "transformers": "4.38.2"
+  }
+}

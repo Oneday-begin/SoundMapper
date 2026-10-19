@@ -1,0 +1,174 @@
+{
+  "pairs": [
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "seconds": 1.2610857000108808,
+      "codec": 75.77571389090892,
+      "descriptive": 76.25605824261463,
+      "machine": 73.70815875423723
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Naal Nachna Dhurandhar 128 Kbps",
+      "seconds": 1.0184120000049006,
+      "codec": 74.97370554328037,
+      "descriptive": 78.24112328408772,
+      "machine": 76.80040885341441
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Parvati Hanuman Ansh 320 Kbps",
+      "seconds": 1.6309136999916518,
+      "codec": 79.51566292497809,
+      "descriptive": 67.95657315269817,
+      "machine": 78.95698889073778
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Ramba Ho Dhurandhar 128 Kbps",
+      "seconds": 1.1338633999985177,
+      "codec": 73.6067536012699,
+      "descriptive": 75.29954139008348,
+      "machine": 75.19160650324137
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "seconds": 1.2455736999982037,
+      "codec": 76.35540660969349,
+      "descriptive": 79.7097285677362,
+      "machine": 77.15451228962561
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "seconds": 0.9772842999955174,
+      "codec": 74.68773186949791,
+      "descriptive": 73.73018559042224,
+      "machine": 76.2681369848377
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Naal Nachna Dhurandhar 128 Kbps",
+      "seconds": 0.8547495999955572,
+      "codec": 80.71872678622559,
+      "descriptive": 73.3058620227498,
+      "machine": 75.40991178238411
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Parvati Hanuman Ansh 320 Kbps",
+      "seconds": 1.14381379999395,
+      "codec": 75.45129670705005,
+      "descriptive": 70.81472269195496,
+      "machine": 73.06205082169993
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Ramba Ho Dhurandhar 128 Kbps",
+      "seconds": 0.791909299994586,
+      "codec": 81.00766230215302,
+      "descriptive": 79.3980734708912,
+      "machine": 75.42778923216741
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "seconds": 1.069951299999957,
+      "codec": 81.1634904322838,
+      "descriptive": 77.95679308609444,
+      "machine": 74.45279807895258
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "seconds": 0.8077231000061147,
+      "codec": 81.41167228704282,
+      "descriptive": 73.13234919215424,
+      "machine": 76.0713671401189
+    },
+    {
+      "a": "Naal Nachna Dhurandhar 128 Kbps",
+      "b": "Parvati Hanuman Ansh 320 Kbps",
+      "seconds": 1.1047575999982655,
+      "codec": 74.73346923687902,
+      "descriptive": 72.33550855874259,
+      "machine": 76.47557321184183
+    },
+    {
+      "a": "Naal Nachna Dhurandhar 128 Kbps",
+      "b": "Ramba Ho Dhurandhar 128 Kbps",
+      "seconds": 0.7315572999941651,
+      "codec": 81.81859051104253,
+      "descriptive": 87.30316042043115,
+      "machine": 77.1004975242916
+    },
+    {
+      "a": "Naal Nachna Dhurandhar 128 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "seconds": 0.7816232000041055,
+      "codec": 81.01552583977355,
+      "descriptive": 85.67860034221576,
+      "machine": 77.98485983785936
+    },
+    {
+      "a": "Naal Nachna Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "seconds": 0.9168123999988893,
+      "codec": 80.49309529227654,
+      "descriptive": 76.98685797811345,
+      "machine": 77.06780212756694
+    },
+    {
+      "a": "Parvati Hanuman Ansh 320 Kbps",
+      "b": "Ramba Ho Dhurandhar 128 Kbps",
+      "seconds": 0.9451718000054825,
+      "codec": 77.65260842886516,
+      "descriptive": 74.25188032647075,
+      "machine": 75.40323572312242
+    },
+    {
+      "a": "Parvati Hanuman Ansh 320 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "seconds": 1.0177215000003343,
+      "codec": 76.60999383657963,
+      "descriptive": 74.91639673542741,
+      "machine": 76.4076084231864
+    },
+    {
+      "a": "Parvati Hanuman Ansh 320 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "seconds": 0.9121727000019746,
+      "codec": 76.09832770749169,
+      "descriptive": 73.09764336117425,
+      "machine": 76.16924665676605
+    },
+    {
+      "a": "Ramba Ho Dhurandhar 128 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "seconds": 0.7026708000048529,
+      "codec": 81.20655081420425,
+      "descriptive": 86.99736355811768,
+      "machine": 77.31861979090834
+    },
+    {
+      "a": "Ramba Ho Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "seconds": 0.7528587999986485,
+      "codec": 81.85065097921972,
+      "descriptive": 72.31860448855927,
+      "machine": 76.98587098945731
+    },
+    {
+      "a": "Shararat Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "seconds": 0.8128249000001233,
+      "codec": 81.11329593572214,
+      "descriptive": 76.15953249507263,
+      "machine": 75.88170598069514
+    }
+  ],
+  "evaluation_endpoint": "passed",
+  "codec_version": "codec-2"
+}

@@ -1,0 +1,10 @@
+{
+  "comparison": "Gehra Hua / Parvati; codec-2 texture 79.5 shown with 40-second coverage for each source",
+  "harmony": "Expanded chord/local-key evidence; uncertain intervals visible; Play A began playback at original time 0 and was paused",
+  "evaluation": "Genre and machine-target metrics visible; 0 fully available external rated pairs; 2 genuine local judgments; listener model untrained",
+  "screenshots": [
+    "reports/final-codec-ui.png",
+    "reports/final-evaluation-ui.png"
+  ],
+  "result": "passed"
+}

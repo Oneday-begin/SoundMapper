@@ -1,0 +1,6 @@
+{
+  "status": "existing",
+  "sha1": "ade154f733639d52e35e32f5593efe5be76c6d70",
+  "audio_tracks": 8000,
+  "note": "Existing sizes and CRCs match archive; no overwrite performed. Run importer to decode."
+}

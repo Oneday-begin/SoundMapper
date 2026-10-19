@@ -1,0 +1,1241 @@
+{
+  "status": "complete",
+  "samples": [
+    {
+      "id": "bf243badd0b34c258a7198fa4b4b105e",
+      "title": "Gehra Hua Dhurandhar 128 Kbps",
+      "identity_score": 100.0,
+      "excerpt_count": 5,
+      "sampled_seconds": 40.0,
+      "source_seconds": 362.417052154195,
+      "initial_processing_seconds": 9.812904500009608,
+      "cache_reused_windows": 5,
+      "tonal_hypothesis_supported_fraction": 0.10030433401483008
+    },
+    {
+      "id": "fe289bc2b1934e119a848cf1eea3b0e3",
+      "title": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "identity_score": 100.0,
+      "excerpt_count": 5,
+      "sampled_seconds": 39.99999999999998,
+      "source_seconds": 253.91020408163266,
+      "initial_processing_seconds": 0.5960636000090744,
+      "cache_reused_windows": 5,
+      "tonal_hypothesis_supported_fraction": 0.0
+    },
+    {
+      "id": "53c46602457f4c43ac6f63693634aa0a",
+      "title": "Naal Nachna Dhurandhar 128 Kbps",
+      "identity_score": 100.0,
+      "excerpt_count": 5,
+      "sampled_seconds": 40.0,
+      "source_seconds": 155.15573696145125,
+      "initial_processing_seconds": 3.7434128999884706,
+      "cache_reused_windows": 5,
+      "tonal_hypothesis_supported_fraction": 0.005499850344208264
+    },
+    {
+      "id": "0c4fc576eaaa4b93a09af2a74ea9d3a7",
+      "title": "Parvati Hanuman Ansh 320 Kbps",
+      "identity_score": 100.0,
+      "excerpt_count": 5,
+      "sampled_seconds": 40.0,
+      "source_seconds": 284.86240362811793,
+      "initial_processing_seconds": 4.282397000002675,
+      "cache_reused_windows": 5,
+      "tonal_hypothesis_supported_fraction": 0.044784194652755314
+    },
+    {
+      "id": "3587ce3802384339a7d5bd3b50b2f80e",
+      "title": "Ramba Ho Dhurandhar 128 Kbps",
+      "identity_score": 100.0,
+      "excerpt_count": 5,
+      "sampled_seconds": 40.0,
+      "source_seconds": 166.97469387755103,
+      "initial_processing_seconds": 4.027819499999168,
+      "cache_reused_windows": 5,
+      "tonal_hypothesis_supported_fraction": 0.0
+    },
+    {
+      "id": "45e69083547445719a84878acdb70ba4",
+      "title": "Shararat Dhurandhar 128 Kbps",
+      "identity_score": 100.0,
+      "excerpt_count": 5,
+      "sampled_seconds": 40.0,
+      "source_seconds": 224.09578231292517,
+      "initial_processing_seconds": 3.975556100005633,
+      "cache_reused_windows": 5,
+      "tonal_hypothesis_supported_fraction": 0.0839640969847684
+    },
+    {
+      "id": "2407a0b4b00244edbdddc7b8b2a1c3ea",
+      "title": "Title Track Dhurandhar 128 Kbps",
+      "identity_score": 100.0,
+      "excerpt_count": 5,
+      "sampled_seconds": 40.0,
+      "source_seconds": 155.59691609977324,
+      "initial_processing_seconds": 3.831991199986078,
+      "cache_reused_windows": 5,
+      "tonal_hypothesis_supported_fraction": 0.05018094314281446
+    }
+  ],
+  "pairs": [
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "codec_texture": 74.35564817337242,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.5577689243027888,
+          "relative_pitch_spread_semitones": 6.119999999999987,
+          "median_pitch_step_semitones": 0.07500000000000284,
+          "stem_energy_shares": {
+            "drums": 0.12335527688264847,
+            "bass": 0.10014263664682706,
+            "other": 0.28958637950321037,
+            "vocals": 0.4869156877199809
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 23.999999999999993,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.27091633466135456,
+          "relative_pitch_spread_semitones": 7.995,
+          "median_pitch_step_semitones": 0.10000000000001563,
+          "stem_energy_shares": {
+            "drums": 0.5487183531125387,
+            "bass": 0.2024256611863772,
+            "other": 0.12484514076883595,
+            "vocals": 0.12401082863410313
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Naal Nachna Dhurandhar 128 Kbps",
+      "codec_texture": 75.3429543201002,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.5577689243027888,
+          "relative_pitch_spread_semitones": 6.119999999999987,
+          "median_pitch_step_semitones": 0.07500000000000284,
+          "stem_energy_shares": {
+            "drums": 0.12335527688264847,
+            "bass": 0.10014263664682706,
+            "other": 0.28958637950321037,
+            "vocals": 0.4869156877199809
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24701195219123506,
+          "relative_pitch_spread_semitones": 4.135,
+          "median_pitch_step_semitones": 0.20000000000000284,
+          "stem_energy_shares": {
+            "drums": 0.5023778776327769,
+            "bass": 0.08538185805082321,
+            "other": 0.31565672159194946,
+            "vocals": 0.09658351788918178
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Parvati Hanuman Ansh 320 Kbps",
+      "codec_texture": 75.82379552929095,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.5577689243027888,
+          "relative_pitch_spread_semitones": 6.119999999999987,
+          "median_pitch_step_semitones": 0.07500000000000284,
+          "stem_energy_shares": {
+            "drums": 0.12335527688264847,
+            "bass": 0.10014263664682706,
+            "other": 0.28958637950321037,
+            "vocals": 0.4869156877199809
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.42895086321381143,
+          "relative_pitch_spread_semitones": 7.109999999999992,
+          "median_pitch_step_semitones": 0.3749999999999929,
+          "stem_energy_shares": {
+            "drums": 0.10012878683240463,
+            "bass": 0.15451949834823608,
+            "other": 0.184403325120608,
+            "vocals": 0.560948371887207
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": 72.31377406246432,
+        "reason": null,
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Ramba Ho Dhurandhar 128 Kbps",
+      "codec_texture": 75.34653133165054,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.5577689243027888,
+          "relative_pitch_spread_semitones": 6.119999999999987,
+          "median_pitch_step_semitones": 0.07500000000000284,
+          "stem_energy_shares": {
+            "drums": 0.12335527688264847,
+            "bass": 0.10014263664682706,
+            "other": 0.28958637950321037,
+            "vocals": 0.4869156877199809
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 23.999999999999986,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24302788844621515,
+          "relative_pitch_spread_semitones": 8.240000000000007,
+          "median_pitch_step_semitones": 0.19999999999998863,
+          "stem_energy_shares": {
+            "drums": 0.5849900941054026,
+            "bass": 0.0676480159163475,
+            "other": 0.23835056523482004,
+            "vocals": 0.10901132474342982
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "codec_texture": 74.1665040505491,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.5577689243027888,
+          "relative_pitch_spread_semitones": 6.119999999999987,
+          "median_pitch_step_semitones": 0.07500000000000284,
+          "stem_energy_shares": {
+            "drums": 0.12335527688264847,
+            "bass": 0.10014263664682706,
+            "other": 0.28958637950321037,
+            "vocals": 0.4869156877199809
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 2,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.3160690571049137,
+          "relative_pitch_spread_semitones": 6.98,
+          "median_pitch_step_semitones": 0.09999999999999432,
+          "stem_energy_shares": {
+            "drums": 0.6921204129854838,
+            "bass": 0.057868521039684616,
+            "other": 0.09315789739290874,
+            "vocals": 0.15685315430164337
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": 56.87416029766579,
+        "reason": null,
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Gehra Hua Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "codec_texture": 72.4364644895638,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.5577689243027888,
+          "relative_pitch_spread_semitones": 6.119999999999987,
+          "median_pitch_step_semitones": 0.07500000000000284,
+          "stem_energy_shares": {
+            "drums": 0.12335527688264847,
+            "bass": 0.10014263664682706,
+            "other": 0.28958637950321037,
+            "vocals": 0.4869156877199809
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 0,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.027888446215139442,
+          "relative_pitch_spread_semitones": null,
+          "median_pitch_step_semitones": null,
+          "stem_energy_shares": {
+            "drums": 0.6052114963531494,
+            "bass": 0.17008275290330252,
+            "other": 0.08599224593490362,
+            "vocals": 0.13871348214646181
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Naal Nachna Dhurandhar 128 Kbps",
+      "codec_texture": 78.3689485610419,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 23.999999999999993,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.27091633466135456,
+          "relative_pitch_spread_semitones": 7.995,
+          "median_pitch_step_semitones": 0.10000000000001563,
+          "stem_energy_shares": {
+            "drums": 0.5487183531125387,
+            "bass": 0.2024256611863772,
+            "other": 0.12484514076883595,
+            "vocals": 0.12401082863410313
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24701195219123506,
+          "relative_pitch_spread_semitones": 4.135,
+          "median_pitch_step_semitones": 0.20000000000000284,
+          "stem_energy_shares": {
+            "drums": 0.5023778776327769,
+            "bass": 0.08538185805082321,
+            "other": 0.31565672159194946,
+            "vocals": 0.09658351788918178
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Parvati Hanuman Ansh 320 Kbps",
+      "codec_texture": 73.19232203775027,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 23.999999999999993,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.27091633466135456,
+          "relative_pitch_spread_semitones": 7.995,
+          "median_pitch_step_semitones": 0.10000000000001563,
+          "stem_energy_shares": {
+            "drums": 0.5487183531125387,
+            "bass": 0.2024256611863772,
+            "other": 0.12484514076883595,
+            "vocals": 0.12401082863410313
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.42895086321381143,
+          "relative_pitch_spread_semitones": 7.109999999999992,
+          "median_pitch_step_semitones": 0.3749999999999929,
+          "stem_energy_shares": {
+            "drums": 0.10012878683240463,
+            "bass": 0.15451949834823608,
+            "other": 0.184403325120608,
+            "vocals": 0.560948371887207
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Ramba Ho Dhurandhar 128 Kbps",
+      "codec_texture": 78.14425758356654,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 23.999999999999993,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.27091633466135456,
+          "relative_pitch_spread_semitones": 7.995,
+          "median_pitch_step_semitones": 0.10000000000001563,
+          "stem_energy_shares": {
+            "drums": 0.5487183531125387,
+            "bass": 0.2024256611863772,
+            "other": 0.12484514076883595,
+            "vocals": 0.12401082863410313
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 23.999999999999986,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24302788844621515,
+          "relative_pitch_spread_semitones": 8.240000000000007,
+          "median_pitch_step_semitones": 0.19999999999998863,
+          "stem_energy_shares": {
+            "drums": 0.5849900941054026,
+            "bass": 0.0676480159163475,
+            "other": 0.23835056523482004,
+            "vocals": 0.10901132474342982
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "codec_texture": 78.82268467341886,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 23.999999999999993,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.27091633466135456,
+          "relative_pitch_spread_semitones": 7.995,
+          "median_pitch_step_semitones": 0.10000000000001563,
+          "stem_energy_shares": {
+            "drums": 0.5487183531125387,
+            "bass": 0.2024256611863772,
+            "other": 0.12484514076883595,
+            "vocals": 0.12401082863410313
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 2,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.3160690571049137,
+          "relative_pitch_spread_semitones": 6.98,
+          "median_pitch_step_semitones": 0.09999999999999432,
+          "stem_energy_shares": {
+            "drums": 0.6921204129854838,
+            "bass": 0.057868521039684616,
+            "other": 0.09315789739290874,
+            "vocals": 0.15685315430164337
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Lutt Le Gaya Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "codec_texture": 78.66851708944768,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 23.999999999999993,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.27091633466135456,
+          "relative_pitch_spread_semitones": 7.995,
+          "median_pitch_step_semitones": 0.10000000000001563,
+          "stem_energy_shares": {
+            "drums": 0.5487183531125387,
+            "bass": 0.2024256611863772,
+            "other": 0.12484514076883595,
+            "vocals": 0.12401082863410313
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 0,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.027888446215139442,
+          "relative_pitch_spread_semitones": null,
+          "median_pitch_step_semitones": null,
+          "stem_energy_shares": {
+            "drums": 0.6052114963531494,
+            "bass": 0.17008275290330252,
+            "other": 0.08599224593490362,
+            "vocals": 0.13871348214646181
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Naal Nachna Dhurandhar 128 Kbps",
+      "b": "Parvati Hanuman Ansh 320 Kbps",
+      "codec_texture": 72.94342501619364,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24701195219123506,
+          "relative_pitch_spread_semitones": 4.135,
+          "median_pitch_step_semitones": 0.20000000000000284,
+          "stem_energy_shares": {
+            "drums": 0.5023778776327769,
+            "bass": 0.08538185805082321,
+            "other": 0.31565672159194946,
+            "vocals": 0.09658351788918178
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.42895086321381143,
+          "relative_pitch_spread_semitones": 7.109999999999992,
+          "median_pitch_step_semitones": 0.3749999999999929,
+          "stem_energy_shares": {
+            "drums": 0.10012878683240463,
+            "bass": 0.15451949834823608,
+            "other": 0.184403325120608,
+            "vocals": 0.560948371887207
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Naal Nachna Dhurandhar 128 Kbps",
+      "b": "Ramba Ho Dhurandhar 128 Kbps",
+      "codec_texture": 79.27465656650202,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24701195219123506,
+          "relative_pitch_spread_semitones": 4.135,
+          "median_pitch_step_semitones": 0.20000000000000284,
+          "stem_energy_shares": {
+            "drums": 0.5023778776327769,
+            "bass": 0.08538185805082321,
+            "other": 0.31565672159194946,
+            "vocals": 0.09658351788918178
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 23.999999999999986,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24302788844621515,
+          "relative_pitch_spread_semitones": 8.240000000000007,
+          "median_pitch_step_semitones": 0.19999999999998863,
+          "stem_energy_shares": {
+            "drums": 0.5849900941054026,
+            "bass": 0.0676480159163475,
+            "other": 0.23835056523482004,
+            "vocals": 0.10901132474342982
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Naal Nachna Dhurandhar 128 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "codec_texture": 78.30996332692064,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24701195219123506,
+          "relative_pitch_spread_semitones": 4.135,
+          "median_pitch_step_semitones": 0.20000000000000284,
+          "stem_energy_shares": {
+            "drums": 0.5023778776327769,
+            "bass": 0.08538185805082321,
+            "other": 0.31565672159194946,
+            "vocals": 0.09658351788918178
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 2,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.3160690571049137,
+          "relative_pitch_spread_semitones": 6.98,
+          "median_pitch_step_semitones": 0.09999999999999432,
+          "stem_energy_shares": {
+            "drums": 0.6921204129854838,
+            "bass": 0.057868521039684616,
+            "other": 0.09315789739290874,
+            "vocals": 0.15685315430164337
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Naal Nachna Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "codec_texture": 78.09461006758703,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24701195219123506,
+          "relative_pitch_spread_semitones": 4.135,
+          "median_pitch_step_semitones": 0.20000000000000284,
+          "stem_energy_shares": {
+            "drums": 0.5023778776327769,
+            "bass": 0.08538185805082321,
+            "other": 0.31565672159194946,
+            "vocals": 0.09658351788918178
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 0,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.027888446215139442,
+          "relative_pitch_spread_semitones": null,
+          "median_pitch_step_semitones": null,
+          "stem_energy_shares": {
+            "drums": 0.6052114963531494,
+            "bass": 0.17008275290330252,
+            "other": 0.08599224593490362,
+            "vocals": 0.13871348214646181
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Parvati Hanuman Ansh 320 Kbps",
+      "b": "Ramba Ho Dhurandhar 128 Kbps",
+      "codec_texture": 76.04466212030698,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.42895086321381143,
+          "relative_pitch_spread_semitones": 7.109999999999992,
+          "median_pitch_step_semitones": 0.3749999999999929,
+          "stem_energy_shares": {
+            "drums": 0.10012878683240463,
+            "bass": 0.15451949834823608,
+            "other": 0.184403325120608,
+            "vocals": 0.560948371887207
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 23.999999999999986,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24302788844621515,
+          "relative_pitch_spread_semitones": 8.240000000000007,
+          "median_pitch_step_semitones": 0.19999999999998863,
+          "stem_energy_shares": {
+            "drums": 0.5849900941054026,
+            "bass": 0.0676480159163475,
+            "other": 0.23835056523482004,
+            "vocals": 0.10901132474342982
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Parvati Hanuman Ansh 320 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "codec_texture": 72.94858251533877,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.42895086321381143,
+          "relative_pitch_spread_semitones": 7.109999999999992,
+          "median_pitch_step_semitones": 0.3749999999999929,
+          "stem_energy_shares": {
+            "drums": 0.10012878683240463,
+            "bass": 0.15451949834823608,
+            "other": 0.184403325120608,
+            "vocals": 0.560948371887207
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 2,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.3160690571049137,
+          "relative_pitch_spread_semitones": 6.98,
+          "median_pitch_step_semitones": 0.09999999999999432,
+          "stem_energy_shares": {
+            "drums": 0.6921204129854838,
+            "bass": 0.057868521039684616,
+            "other": 0.09315789739290874,
+            "vocals": 0.15685315430164337
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": 76.1248272894201,
+        "reason": null,
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Parvati Hanuman Ansh 320 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "codec_texture": 73.0326349957617,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 3,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.42895086321381143,
+          "relative_pitch_spread_semitones": 7.109999999999992,
+          "median_pitch_step_semitones": 0.3749999999999929,
+          "stem_energy_shares": {
+            "drums": 0.10012878683240463,
+            "bass": 0.15451949834823608,
+            "other": 0.184403325120608,
+            "vocals": 0.560948371887207
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 0,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.027888446215139442,
+          "relative_pitch_spread_semitones": null,
+          "median_pitch_step_semitones": null,
+          "stem_energy_shares": {
+            "drums": 0.6052114963531494,
+            "bass": 0.17008275290330252,
+            "other": 0.08599224593490362,
+            "vocals": 0.13871348214646181
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Ramba Ho Dhurandhar 128 Kbps",
+      "b": "Shararat Dhurandhar 128 Kbps",
+      "codec_texture": 79.17597848601272,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 23.999999999999986,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24302788844621515,
+          "relative_pitch_spread_semitones": 8.240000000000007,
+          "median_pitch_step_semitones": 0.19999999999998863,
+          "stem_energy_shares": {
+            "drums": 0.5849900941054026,
+            "bass": 0.0676480159163475,
+            "other": 0.23835056523482004,
+            "vocals": 0.10901132474342982
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 2,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.3160690571049137,
+          "relative_pitch_spread_semitones": 6.98,
+          "median_pitch_step_semitones": 0.09999999999999432,
+          "stem_energy_shares": {
+            "drums": 0.6921204129854838,
+            "bass": 0.057868521039684616,
+            "other": 0.09315789739290874,
+            "vocals": 0.15685315430164337
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Ramba Ho Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "codec_texture": 79.17088199487227,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 23.999999999999986,
+          "usable_pitch_excerpts": 1,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.24302788844621515,
+          "relative_pitch_spread_semitones": 8.240000000000007,
+          "median_pitch_step_semitones": 0.19999999999998863,
+          "stem_energy_shares": {
+            "drums": 0.5849900941054026,
+            "bass": 0.0676480159163475,
+            "other": 0.23835056523482004,
+            "vocals": 0.10901132474342982
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 0,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.027888446215139442,
+          "relative_pitch_spread_semitones": null,
+          "median_pitch_step_semitones": null,
+          "stem_energy_shares": {
+            "drums": 0.6052114963531494,
+            "bass": 0.17008275290330252,
+            "other": 0.08599224593490362,
+            "vocals": 0.13871348214646181
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    },
+    {
+      "a": "Shararat Dhurandhar 128 Kbps",
+      "b": "Title Track Dhurandhar 128 Kbps",
+      "codec_texture": 78.3216380034677,
+      "source_detail": {
+        "available": true,
+        "a": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 2,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.3160690571049137,
+          "relative_pitch_spread_semitones": 6.98,
+          "median_pitch_step_semitones": 0.09999999999999432,
+          "stem_energy_shares": {
+            "drums": 0.6921204129854838,
+            "bass": 0.057868521039684616,
+            "other": 0.09315789739290874,
+            "vocals": 0.15685315430164337
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "b": {
+          "sampled_seconds": 24.0,
+          "usable_pitch_excerpts": 0,
+          "total_excerpts": 3,
+          "voiced_fraction": 0.027888446215139442,
+          "relative_pitch_spread_semitones": null,
+          "median_pitch_step_semitones": null,
+          "stem_energy_shares": {
+            "drums": 0.6052114963531494,
+            "bass": 0.17008275290330252,
+            "other": 0.08599224593490362,
+            "vocals": 0.13871348214646181
+          },
+          "note": "Demucs source estimates and gated pYIN pitch measurements. Stem leakage and sampling affect these values; no verified instrument or singing-technique labels."
+        },
+        "vocal_measurement_index": null,
+        "reason": "At least two usable voiced excerpts in each recording are required; a missing score does not mean dissimilar voices.",
+        "note": "Comparison of measured voicing and pitch movement in sampled estimated vocals. Not a classifier for rap, breathiness, emotion, singer identity or vocal delivery.",
+        "excluded_from_descriptive_index": true
+      }
+    }
+  ],
+  "real_excerpt_transforms": [
+    {
+      "id": "bf243badd0b34c258a7198fa4b4b105e",
+      "transform": "half_gain",
+      "codec_token_affinity": 60.786440111568915,
+      "input_rms_change_db": -6.020599913279625,
+      "source_start": 177.2085,
+      "source_end": 185.2085
+    },
+    {
+      "id": "bf243badd0b34c258a7198fa4b4b105e",
+      "transform": "time_reversal",
+      "codec_token_affinity": 61.02058341195612,
+      "input_rms_change_db": 1.0066683842069324e-06,
+      "source_start": 177.2085,
+      "source_end": 185.2085
+    },
+    {
+      "id": "fe289bc2b1934e119a848cf1eea3b0e3",
+      "transform": "half_gain",
+      "codec_token_affinity": 56.05743164904489,
+      "input_rms_change_db": -6.020599913279625,
+      "source_start": 122.95508333333333,
+      "source_end": 130.95508333333333
+    },
+    {
+      "id": "fe289bc2b1934e119a848cf1eea3b0e3",
+      "transform": "time_reversal",
+      "codec_token_affinity": 58.83828497321575,
+      "input_rms_change_db": 0.0,
+      "source_start": 122.95508333333333,
+      "source_end": 130.95508333333333
+    },
+    {
+      "id": "53c46602457f4c43ac6f63693634aa0a",
+      "transform": "half_gain",
+      "codec_token_affinity": 55.0359305393878,
+      "input_rms_change_db": -6.020599913279625,
+      "source_start": 73.577875,
+      "source_end": 81.577875
+    },
+    {
+      "id": "53c46602457f4c43ac6f63693634aa0a",
+      "transform": "time_reversal",
+      "codec_token_affinity": 58.31152112556055,
+      "input_rms_change_db": 8.957035682044534e-07,
+      "source_start": 73.577875,
+      "source_end": 81.577875
+    },
+    {
+      "id": "0c4fc576eaaa4b93a09af2a74ea9d3a7",
+      "transform": "half_gain",
+      "codec_token_affinity": 54.79638261298361,
+      "input_rms_change_db": -6.020599913279623,
+      "source_start": 138.43120833333333,
+      "source_end": 146.43120833333333
+    },
+    {
+      "id": "0c4fc576eaaa4b93a09af2a74ea9d3a7",
+      "transform": "time_reversal",
+      "codec_token_affinity": 56.71809182953085,
+      "input_rms_change_db": 0.0,
+      "source_start": 138.43120833333333,
+      "source_end": 146.43120833333333
+    },
+    {
+      "id": "3587ce3802384339a7d5bd3b50b2f80e",
+      "transform": "half_gain",
+      "codec_token_affinity": 54.534932607732365,
+      "input_rms_change_db": -6.020599913279625,
+      "source_start": 79.48733333333334,
+      "source_end": 87.48733333333334
+    },
+    {
+      "id": "3587ce3802384339a7d5bd3b50b2f80e",
+      "transform": "time_reversal",
+      "codec_token_affinity": 57.844457984558694,
+      "input_rms_change_db": 1.6337113901698785e-06,
+      "source_start": 79.48733333333334,
+      "source_end": 87.48733333333334
+    },
+    {
+      "id": "45e69083547445719a84878acdb70ba4",
+      "transform": "half_gain",
+      "codec_token_affinity": 56.07192502002074,
+      "input_rms_change_db": -6.020599913279625,
+      "source_start": 108.047875,
+      "source_end": 116.047875
+    },
+    {
+      "id": "45e69083547445719a84878acdb70ba4",
+      "transform": "time_reversal",
+      "codec_token_affinity": 56.806497231931054,
+      "input_rms_change_db": -5.363905675181968e-07,
+      "source_start": 108.047875,
+      "source_end": 116.047875
+    },
+    {
+      "id": "2407a0b4b00244edbdddc7b8b2a1c3ea",
+      "transform": "half_gain",
+      "codec_token_affinity": 55.50268253943263,
+      "input_rms_change_db": -6.0205999132796215,
+      "source_start": 73.79845833333333,
+      "source_end": 81.79845833333333
+    },
+    {
+      "id": "2407a0b4b00244edbdddc7b8b2a1c3ea",
+      "transform": "time_reversal",
+      "codec_token_affinity": 56.96245538323388,
+      "input_rms_change_db": 0.0,
+      "source_start": 73.79845833333333,
+      "source_end": 81.79845833333333
+    }
+  ],
+  "coverage": {
+    "test_recordings": 800,
+    "test_pairs": 1200,
+    "by_genre": {
+      "Electronic": {
+        "pairs_with_either_endpoint": 210,
+        "mae_points_by_dimension": {
+          "rhythm_proxy": 13.839254574097444,
+          "harmonic_proxy": 8.086877396556863,
+          "timbral_proxy": 5.311356649908875,
+          "dynamic_range_proxy": 16.39994155389553
+        }
+      },
+      "Experimental": {
+        "pairs_with_either_endpoint": 338,
+        "mae_points_by_dimension": {
+          "rhythm_proxy": 11.245462469514047,
+          "harmonic_proxy": 7.168399856447775,
+          "timbral_proxy": 5.698648391453214,
+          "dynamic_range_proxy": 18.57768333982539
+        }
+      },
+      "Folk": {
+        "pairs_with_either_endpoint": 336,
+        "mae_points_by_dimension": {
+          "rhythm_proxy": 10.649280020733855,
+          "harmonic_proxy": 5.688309131041564,
+          "timbral_proxy": 4.790862519939454,
+          "dynamic_range_proxy": 18.04819158142273
+        }
+      },
+      "Hip-Hop": {
+        "pairs_with_either_endpoint": 309,
+        "mae_points_by_dimension": {
+          "rhythm_proxy": 13.031046013583277,
+          "harmonic_proxy": 6.301030372642018,
+          "timbral_proxy": 5.637701731369593,
+          "dynamic_range_proxy": 14.156995002387138
+        }
+      },
+      "Instrumental": {
+        "pairs_with_either_endpoint": 161,
+        "mae_points_by_dimension": {
+          "rhythm_proxy": 11.08187539800404,
+          "harmonic_proxy": 7.589881111996642,
+          "timbral_proxy": 5.988498521241626,
+          "dynamic_range_proxy": 14.398410207281449
+        }
+      },
+      "International": {
+        "pairs_with_either_endpoint": 287,
+        "mae_points_by_dimension": {
+          "rhythm_proxy": 10.063005889235766,
+          "harmonic_proxy": 5.695241631316244,
+          "timbral_proxy": 4.856779840641609,
+          "dynamic_range_proxy": 14.613466444502722
+        }
+      },
+      "Pop": {
+        "pairs_with_either_endpoint": 275,
+        "mae_points_by_dimension": {
+          "rhythm_proxy": 10.945984269919663,
+          "harmonic_proxy": 5.86633574324288,
+          "timbral_proxy": 4.6092995181341845,
+          "dynamic_range_proxy": 15.246900401311487
+        }
+      },
+      "Rock": {
+        "pairs_with_either_endpoint": 281,
+        "mae_points_by_dimension": {
+          "rhythm_proxy": 10.672649548108947,
+          "harmonic_proxy": 6.543628851544832,
+          "timbral_proxy": 4.978652420999907,
+          "dynamic_range_proxy": 17.33690120600422
+        }
+      }
+    },
+    "largest_machine_target_errors": [
+      {
+        "a": "e15026d6bcf049bba8a32ace476d6286",
+        "b": "3280090550be407b9af098428fbad64f",
+        "genres": [
+          "Hip-Hop",
+          "International"
+        ],
+        "mean_dimension_error": 22.5124411682931,
+        "errors": {
+          "rhythm_proxy": 17.589909513437462,
+          "harmonic_proxy": 9.764863434569918,
+          "timbral_proxy": 14.085480357386587,
+          "dynamic_range_proxy": 48.609511367778445
+        }
+      },
+      {
+        "a": "bcd4b6b17858429192296f460ac67bd8",
+        "b": "69172178d1354283a38617e058756af4",
+        "genres": [
+          "Experimental",
+          "Rock"
+        ],
+        "mean_dimension_error": 21.935262794395822,
+        "errors": {
+          "rhythm_proxy": 28.512322900379957,
+          "harmonic_proxy": 13.307285424364196,
+          "timbral_proxy": 5.015058263431882,
+          "dynamic_range_proxy": 40.90638458940725
+        }
+      },
+      {
+        "a": "33b537d385ba4280b2da45f2dd115f33",
+        "b": "d3ccbdb356cd4c769024812156a14187",
+        "genres": [
+          "Electronic"
+        ],
+        "mean_dimension_error": 21.3423400506388,
+        "errors": {
+          "rhythm_proxy": 22.988337628938446,
+          "harmonic_proxy": 46.76764649159019,
+          "timbral_proxy": 8.771029857550687,
+          "dynamic_range_proxy": 6.842346224475875
+        }
+      },
+      {
+        "a": "67d5fdf864cb4f09a1dc25cd7a8801c9",
+        "b": "b65affca94b642969946e9d8ffa3ffc9",
+        "genres": [
+          "Experimental",
+          "Rock"
+        ],
+        "mean_dimension_error": 20.646384991229574,
+        "errors": {
+          "rhythm_proxy": 26.635769066278556,
+          "harmonic_proxy": 8.296386922942233,
+          "timbral_proxy": 11.159053186419143,
+          "dynamic_range_proxy": 36.49433078927836
+        }
+      },
+      {
+        "a": "e3e1f83ce45e479c86667eb83f4a6865",
+        "b": "af65ab96ff5840ba8a654bd09a77905c",
+        "genres": [
+          "Electronic"
+        ],
+        "mean_dimension_error": 20.485495776380123,
+        "errors": {
+          "rhythm_proxy": 7.222626293857431,
+          "harmonic_proxy": 40.51404780874129,
+          "timbral_proxy": 2.245449936067601,
+          "dynamic_range_proxy": 31.95985906685417
+        }
+      }
+    ],
+    "language_coverage": "No verified language labels in this experiment; language accuracy cannot be calculated.",
+    "note": "Post-hoc descriptive breakdown of the fixed model; no retuning. Groups overlap when endpoints have different genres. Machine-target errors do not measure human judgment."
+  },
+  "human_ratings_unchanged": true,
+  "original_hashes_unchanged": true,
+  "processing_seconds": 49.25003380000999,
+  "peak_rss_mb": 1781.828125,
+  "note": "Real-audio engineering checks and calculated-target coverage only. Reversal/gain scores are observations, not recommendation-quality labels. EnCodec histogram pooling discards token order.",
+  "model_revision": "c1dbe2ae3f1de713481a3b3e7c47f357092ee040"
+}

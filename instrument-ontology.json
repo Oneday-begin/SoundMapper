@@ -1,0 +1,373 @@
+{
+  "source": "https://github.com/audioset/ontology",
+  "revision": "d417d32bf59c711abb5910fd2f76a0eb44697991",
+  "root": "/m/04szw",
+  "license": "CC BY-SA 4.0 (AudioSet ontology repository)",
+  "source_sha256": "9c685f4403eecc3ca9be37fd7285cf212feaaea6ff7229d3e7ca89e0d1f2d15d",
+  "instrument_classes": [
+    {
+      "id": "/m/011k_j",
+      "name": "Timpani"
+    },
+    {
+      "id": "/m/013y1f",
+      "name": "Organ"
+    },
+    {
+      "id": "/m/0150b9",
+      "name": "Change ringing (campanology)"
+    },
+    {
+      "id": "/m/016622",
+      "name": "Tubular bells"
+    },
+    {
+      "id": "/m/018j2",
+      "name": "Banjo"
+    },
+    {
+      "id": "/m/018vs",
+      "name": "Bass guitar"
+    },
+    {
+      "id": "/m/0192l",
+      "name": "Bagpipes"
+    },
+    {
+      "id": "/m/01bns_",
+      "name": "Zither"
+    },
+    {
+      "id": "/m/01c3q",
+      "name": "Bassoon"
+    },
+    {
+      "id": "/m/01glhc",
+      "name": "Tapping (guitar technique)"
+    },
+    {
+      "id": "/m/01hgjl",
+      "name": "Scratching (performance technique)"
+    },
+    {
+      "id": "/m/01kcd",
+      "name": "Brass instrument"
+    },
+    {
+      "id": "/m/01p970",
+      "name": "Tabla"
+    },
+    {
+      "id": "/m/01qbl",
+      "name": "Cymbal"
+    },
+    {
+      "id": "/m/01s0ps",
+      "name": "Electric piano"
+    },
+    {
+      "id": "/m/01sm1g",
+      "name": "Wood block"
+    },
+    {
+      "id": "/m/01v1d8",
+      "name": "Sampler"
+    },
+    {
+      "id": "/m/01vj9c",
+      "name": "Bass (instrument role)"
+    },
+    {
+      "id": "/m/01wy6",
+      "name": "Clarinet"
+    },
+    {
+      "id": "/m/01xqw",
+      "name": "Cello"
+    },
+    {
+      "id": "/m/020w2",
+      "name": "Cornet"
+    },
+    {
+      "id": "/m/0239kh",
+      "name": "Cowbell"
+    },
+    {
+      "id": "/m/025cbm",
+      "name": "Clavinet"
+    },
+    {
+      "id": "/m/026fgl",
+      "name": "Wind chime"
+    },
+    {
+      "id": "/m/026t6",
+      "name": "Drum"
+    },
+    {
+      "id": "/m/027m70_",
+      "name": "Jingle bell"
+    },
+    {
+      "id": "/m/02bxd",
+      "name": "Didgeridoo"
+    },
+    {
+      "id": "/m/02fsn",
+      "name": "Double bass"
+    },
+    {
+      "id": "/m/02hnl",
+      "name": "Drum kit"
+    },
+    {
+      "id": "/m/02k_mr",
+      "name": "Drum roll"
+    },
+    {
+      "id": "/m/02pprs",
+      "name": "Alto saxophone"
+    },
+    {
+      "id": "/m/02qmj0d",
+      "name": "String section"
+    },
+    {
+      "id": "/m/02sgy",
+      "name": "Electric guitar"
+    },
+    {
+      "id": "/m/0319l",
+      "name": "French horn"
+    },
+    {
+      "id": "/m/0342h",
+      "name": "Guitar"
+    },
+    {
+      "id": "/m/0395lw",
+      "name": "Bell"
+    },
+    {
+      "id": "/m/03gvt",
+      "name": "Hammond organ"
+    },
+    {
+      "id": "/m/03m5k",
+      "name": "Harp"
+    },
+    {
+      "id": "/m/03q5t",
+      "name": "Harpsichord"
+    },
+    {
+      "id": "/m/03qjg",
+      "name": "Harmonica"
+    },
+    {
+      "id": "/m/03qtq",
+      "name": "Hi-hat"
+    },
+    {
+      "id": "/m/03t22m",
+      "name": "Soprano saxophone"
+    },
+    {
+      "id": "/m/03t3fj",
+      "name": "Rimshot"
+    },
+    {
+      "id": "/m/03w41f",
+      "name": "Church bell"
+    },
+    {
+      "id": "/m/03xq_f",
+      "name": "Electronic organ"
+    },
+    {
+      "id": "/m/042v_gx",
+      "name": "Acoustic guitar"
+    },
+    {
+      "id": "/m/04rzd",
+      "name": "Mandolin"
+    },
+    {
+      "id": "/m/05148p4",
+      "name": "Keyboard (musical)"
+    },
+    {
+      "id": "/m/05229",
+      "name": "Musical ensemble"
+    },
+    {
+      "id": "/m/05kms",
+      "name": "Oboe"
+    },
+    {
+      "id": "/m/05pd6",
+      "name": "Orchestra"
+    },
+    {
+      "id": "/m/05r5c",
+      "name": "Piano"
+    },
+    {
+      "id": "/m/05r5wn",
+      "name": "Rattle (instrument)"
+    },
+    {
+      "id": "/m/06ncr",
+      "name": "Saxophone"
+    },
+    {
+      "id": "/m/06rvn",
+      "name": "Snare drum"
+    },
+    {
+      "id": "/m/06w87",
+      "name": "Steel guitar, slide guitar"
+    },
+    {
+      "id": "/m/07brj",
+      "name": "Tambourine"
+    },
+    {
+      "id": "/m/07c6l",
+      "name": "Trombone"
+    },
+    {
+      "id": "/m/07gql",
+      "name": "Trumpet"
+    },
+    {
+      "id": "/m/07kc_",
+      "name": "Theremin"
+    },
+    {
+      "id": "/m/07n_g",
+      "name": "Tuning fork"
+    },
+    {
+      "id": "/m/07s0s5r",
+      "name": "Strum"
+    },
+    {
+      "id": "/m/07xzm",
+      "name": "Ukulele"
+    },
+    {
+      "id": "/m/07y_7",
+      "name": "Violin, fiddle"
+    },
+    {
+      "id": "/m/085jw",
+      "name": "Wind instrument, woodwind instrument"
+    },
+    {
+      "id": "/m/0bm02",
+      "name": "Bass drum"
+    },
+    {
+      "id": "/m/0bm0k",
+      "name": "Crash cymbal"
+    },
+    {
+      "id": "/m/0bxl5",
+      "name": "Rhodes piano"
+    },
+    {
+      "id": "/m/0cfdd",
+      "name": "Drum machine"
+    },
+    {
+      "id": "/m/0d8_n",
+      "name": "Pizzicato"
+    },
+    {
+      "id": "/m/0dwsp",
+      "name": "Marimba, xylophone"
+    },
+    {
+      "id": "/m/0dwt5",
+      "name": "Vibraphone"
+    },
+    {
+      "id": "/m/0dwtp",
+      "name": "Glockenspiel"
+    },
+    {
+      "id": "/m/0f8s22",
+      "name": "Chime"
+    },
+    {
+      "id": "/m/0fx80y",
+      "name": "Plucked string instrument"
+    },
+    {
+      "id": "/m/0gkd1",
+      "name": "Mellotron"
+    },
+    {
+      "id": "/m/0gy1t2s",
+      "name": "Bicycle bell"
+    },
+    {
+      "id": "/m/0j45pbj",
+      "name": "Mallet percussion"
+    },
+    {
+      "id": "/m/0jtg0",
+      "name": "Sitar"
+    },
+    {
+      "id": "/m/0l14_3",
+      "name": "Bowed string instrument"
+    },
+    {
+      "id": "/m/0l14j_",
+      "name": "Flute"
+    },
+    {
+      "id": "/m/0l14jd",
+      "name": "Choir"
+    },
+    {
+      "id": "/m/0l14l2",
+      "name": "Shofar"
+    },
+    {
+      "id": "/m/0l14md",
+      "name": "Percussion"
+    },
+    {
+      "id": "/m/0l14qv",
+      "name": "Synthesizer"
+    },
+    {
+      "id": "/m/0l14t7",
+      "name": "Singing bowl"
+    },
+    {
+      "id": "/m/0l156b",
+      "name": "Steelpan"
+    },
+    {
+      "id": "/m/0mbct",
+      "name": "Gong"
+    },
+    {
+      "id": "/m/0mkg",
+      "name": "Accordion"
+    },
+    {
+      "id": "/m/0xzly",
+      "name": "Maraca"
+    },
+    {
+      "id": "/m/0y64j",
+      "name": "Bugle"
+    }
+  ]
+}
