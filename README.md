@@ -28,7 +28,7 @@ Copy-Item config.example.json config.json
 .\launch.ps1
 ```
 
-Open **http://127.0.0.1:8765/** and upload your own licensed MP3/WAV recordings. The initial setup needs internet access and downloads dependencies and model assets. Cached inference runs locally. Audio and weights are not bundled here. Python 3.12 is the tested version.
+Open **http://127.0.0.1:8765/** for the beginner-friendly welcome page, then select **Compare two songs**. The workspace is also available directly at **/app**. Upload your own licensed MP3/WAV recordings. The initial setup needs internet access and downloads dependencies and model assets. Cached inference runs locally. Audio and weights are not bundled here. Python 3.12 is the tested version.
 
 If PowerShell blocks a local script, run that script for this invocation with:
 

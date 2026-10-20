@@ -12,7 +12,7 @@ with sync_playwright() as p:
     browser=p.chromium.launch(channel='msedge',headless=True)
     page=browser.new_page(viewport={'width':1440,'height':1050})
     page.on('pageerror',lambda e:errors.append(str(e)))
-    page.goto('http://127.0.0.1:8765',wait_until='networkidle')
+    page.goto('http://127.0.0.1:8765/app',wait_until='networkidle')
     assert page.locator('#track-a option').count()>=7
     checks.append('Analyzed library tracks listed, including the seven samples')
     page.click('#compare-button')

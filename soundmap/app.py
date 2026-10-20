@@ -322,6 +322,9 @@ def delete_track(id_:str):
     return {'deleted':True,'original_preserved':t['source']!='upload'}
 
 @app.get('/')
+def welcome(): return FileResponse(ROOT/'static'/'landing.html')
+
+@app.get('/app')
 def index(): return FileResponse(ROOT/'static'/'index.html')
 
 app.mount('/static',StaticFiles(directory=ROOT/'static'),name='static')
